@@ -11,5 +11,5 @@ date_default_timezone_set('America/Mexico_City');
 require_once __DIR__.'/../vendor/autoload.php';
 
 //inicio de la aplicacion
-Model3\Site\Site::initSite('../application/Config/config.ini');
+Model3\Site\Site::initSite('../config/config.ini');
 Model3\Site\Site::dispatch(new Model3_Request);
