@@ -1,6 +1,8 @@
 <?php
 
-class Bootstrap extends Model3_Site_Bootstrap
+use Model3\Site\Bootstrap as Model3Bootstrap;
+
+class Bootstrap extends Model3Bootstrap
 {
 
     public function _initBase()
