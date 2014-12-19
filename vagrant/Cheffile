@@ -1,0 +1,16 @@
+# encoding: utf-8
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook "apt"
+cookbook "apache2", {}
+cookbook "git", {}
+cookbook "mysql", {}
+cookbook "vim", {}
+cookbook "php", {}
+cookbook "yum", {}
+cookbook "composer", {}
+cookbook "database", {}
+#cookbook "chef-php-extra",
+#    :github => "inviqa/chef-php-extra",
+#    :ref => "0.4.1"

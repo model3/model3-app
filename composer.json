@@ -1,0 +1,10 @@
+{
+    "require": {
+        "model3/model3": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "App": "src/"
+        }
+    }
+}
